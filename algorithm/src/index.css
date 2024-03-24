@@ -10,16 +10,67 @@
 }
 .back{
 
-background-color: rgba(0, 0, 0, 0.5);
- width:370px;
-margin:150px 300px;
+background-color: rgba(0, 0, 0, 0.7);
+ width:420px;
+margin:250px 800px;
 padding:5px;
 border-radius:10px;
 color:white;
 font-size:40px;
 font-style: italic;
+border-right: 12px solid rgb(221, 140, 26);
   
 }
-.back h2{
-  margin-left:10px;
+.back h1{
+  margin-left:5px;
+  font-size: 60px;
+}
+
+
+.back h1 {
+  color: hsl(0, 0%, 28%);
+  font-size: 50px!important;
+  font-weight: bold!important;
+  font-family: monospace;
+  letter-spacing: 7px!important;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.back h1 {
+  padding: 40px;
+  background: linear-gradient(to right, hsl(0, 0%, 5%) 0, hsl(0, 2%, 10%) 10%, hsl(0, 10%, 96%) 20%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}
+
+.Define{
+  background-color: rgb(0, 0, 0, 0.9);
+
+}
+.DefineDiv h1{
+  color: antiquewhite;
+  font-family:'Electrolize', Courier, monospace;
+  font-size: 50px;
+  margin-left: 20%;
+}
+.DefineDiv p{
+  color: aliceblue;
+  font-family:'Electrolize', Courier, monospace;
+  font-size: 25px;
+  margin-left: 20%;
+  inline-size: 800px;
 }
