@@ -7,19 +7,48 @@
    
     background-size: cover; 
     background-repeat: no-repeat;
+    
+
+    
 }
 .back{
-
-background-color: rgba(0, 0, 0, 0.5);
- width:370px;
+  background-color: rgba(0, 0, 0, 0.5);
+width:370px;
 margin:150px 300px;
 padding:5px;
 border-radius:10px;
 color:white;
 font-size:40px;
 font-style: italic;
+height:auto;
   
 }
 .back h2{
   margin-left:10px;
 }
+
+/* Filename: App.css */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.home,
+.services,
+.reports,
+.contact,
+.events,
+.support {
+	display: flex;
+	margin-left: 260px;
+	font-size: 2rem;
+}
+
+.subNav:hover{
+  background-color:burlywood;
+}
+
+
+
+
