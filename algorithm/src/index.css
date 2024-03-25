@@ -16,9 +16,6 @@
 background-color: rgba(0, 0, 0, 0.7);
  width:420px;
 margin:250px 800px;
-  background-color: rgba(0, 0, 0, 0.5);
-width:370px;
-margin:150px 300px;
 padding:5px;
 border-radius:10px;
 color:white;
@@ -100,5 +97,5 @@ height:auto;
 }
 
 .subNav:hover{
-  background-color:burlywood;
+  background-color:rgb(201, 124, 24);
 }

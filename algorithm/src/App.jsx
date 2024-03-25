@@ -1,8 +1,5 @@
 import Backtheme from "./Components/Backtheme";
 import Define from "./Components/Define";
-import Backtracking from "./Components/Backtracking";
-import Greedy from "./Components/Greedy";
-import Branch from "./Components/Branch";
 import Sidebar from "./Components/Sidebar";
 
 import {
@@ -30,16 +27,9 @@ import Contact from "./Components/Contact";
 import Support from "./Components/Support";
 
 const App=()=>{
-  return(
-    <>
-    <Backtheme/>
-    <Define/>
-    </>
-  )
-}
-function App1() {
 	return (
 		<Router>
+			
 			<Sidebar />
 			<Routes>
 				<Route
@@ -91,6 +81,8 @@ function App1() {
 					element={<Support />}
 				/>
 			</Routes>
+			<Backtheme/>
+			<Define/>
 		</Router>
 	);
 }

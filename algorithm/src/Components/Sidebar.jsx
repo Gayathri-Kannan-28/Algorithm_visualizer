@@ -9,10 +9,10 @@ import { IconContext } from "react-icons/lib";
 
 const Nav = Styled.div`
   background: #15171c;
-  height: 80px;
+  height: 60px;
   display: flex;
   align-items: center;
-  background-color:burlywood;
+  background-color: rgb(0,0,0,0.8);
 `;
 
 const NavIcon = Styled(Link)`
@@ -21,13 +21,13 @@ const NavIcon = Styled(Link)`
   height: 80px;
   display: flex;
   align-items: center;
-  color: black;
+  color: #c48535;
   text-decoration: none;
  
 `;
 
 const SidebarNav = Styled.nav`
-  background: burlywood;
+  background: rgb(0,0,0,0.9);
   width: 250px;
   color:black;
   height: 100vh;
@@ -57,7 +57,7 @@ const Sidebar = () => {
           <NavIcon to="#">
             <FaIcons.FaBars onClick={showSidebar} />
           </NavIcon>
-          <h1 style={{ textAlign: "center", marginLeft: "1rem", color: "black" }}>
+          <h1 style={{ textAlign: "center", marginLeft: "1rem", color: "#c48535" }}>
             Algorithms
           </h1>
         </Nav>
