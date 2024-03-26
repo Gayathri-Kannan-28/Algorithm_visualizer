@@ -1,6 +1,7 @@
 import Backtheme from "./Components/Backtheme";
 import Define from "./Components/Define";
 import Sidebar from "./Components/Sidebar";
+import Info from "./Components/Info";
 
 import {
 	BrowserRouter as Router,
@@ -83,6 +84,7 @@ const App=()=>{
 			</Routes>
 			<Backtheme/>
 			<Define/>
+			<Info/>
 		</Router>
 	);
 }
