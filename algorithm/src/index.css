@@ -78,7 +78,7 @@ height:auto;
   margin-left: 20%;
   inline-size: 800px;
 }
-/* Filename: App.css */
+
 
 * {
 	box-sizing: border-box;
@@ -99,9 +99,62 @@ height:auto;
 .subNav:hover{
   background-color:rgb(201, 124, 24);
 }
+
 .InfoSec{
   background-color: rgba(35, 35, 35, 0.9);
 }
 .InfoDiv h1{
   color: aliceblue;
+}
+
+.contact-content{
+  padding: 100px 0;
+  color: #b1a5a5;
+  text-align: center;
+  background-color:rgb(122, 122, 121) ;
+}
+.contact-content .contact-title h4{
+  font-size: 40px;
+  text-transform: capitalize;
+  color: rgb(28, 22, 22);
+  padding-bottom: 10px;
+
+}
+.contact-content .contact-title p{
+  padding-bottom: 20px;
+}
+.contact{
+  max-width: 700px;
+  margin: auto;
+  border-radius: 45px;
+}
+.contact input,.contact textarea{
+  width: 96%;
+  padding: 15px;
+  border: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  border-radius: 15px;
+  background-color:white;
+}
+
+.contact .submit{
+  width: auto;
+  background-color: rgb(7, 146, 102);
+  box-shadow:1px 2px 4px #640b0b;
+  padding: 10px 40px;
+  font-weight:bold ;
+  font-size: 18px;
+  color: rgb(1, 2, 3);
+}
+.contact .submit:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+#msg{
+  color: #fff;
+  font-size: 20px;
+  margin-top: -8px;
+  display: block;
+
 }
