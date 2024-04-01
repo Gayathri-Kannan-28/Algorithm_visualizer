@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Info=()=>{
     return(
         <>
@@ -11,6 +13,7 @@ const Info=()=>{
             <span>CONTACTS</span>
                 <h4>gayathri.k2022cse@sece.ac.in</h4>
                 <h4>charubala.b2022cse@sece.ac.in</h4>
+                <Link to={"/feedback"}><button className="ff">hello</button></Link>
             </div>
         </section>
         </>

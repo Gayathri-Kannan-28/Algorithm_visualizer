@@ -64,25 +64,9 @@ export const SidebarData = [
 		icon: <FaIcons.FaPhone />,
 	},
 	{
-		title: "Events",
+		title: "Feedback",
 		path: "/events",
 		icon: <FaIcons.FaEnvelopeOpenText />,
-
-		iconClosed: <RiIcons.RiArrowDownSFill />,
-		iconOpened: <RiIcons.RiArrowUpSFill />,
-
-		subNav: [
-			{
-				title: "Event 1",
-				path: "/events/events1",
-				icon: <IoIcons.IoIosPaper />,
-			},
-			{
-				title: "Event 2",
-				path: "/events/events2",
-				icon: <IoIcons.IoIosPaper />,
-			},
-		],
 	},
 	{
 		title: "Support",

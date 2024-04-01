@@ -2,6 +2,7 @@ import Backtheme from "./Components/Backtheme";
 import Define from "./Components/Define";
 import Sidebar from "./Components/Sidebar";
 import Info from "./Components/Info";
+import Contacts from "./Components/Contacts";
 
 import {
 	BrowserRouter as Router,
@@ -85,12 +86,9 @@ const App=()=>{
 			<Backtheme/>
 			<Define/>
 			<Info/>
+			<Contacts/>
 		</Router>
 	);
 }
 
 export default App;
-
-
-
-

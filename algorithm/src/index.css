@@ -89,7 +89,7 @@ height:auto;
 .services,
 .reports,
 .contact,
-.events,
+.feedBack,
 .support {
 	display: flex;
 	margin-left: 260px;
@@ -103,5 +103,12 @@ height:auto;
   background-color: rgba(35, 35, 35, 0.9);
 }
 .InfoDiv h1{
+  color: aliceblue;
+}
+
+.hello{
+  color: aliceblue;
+}
+.ff{
   color: aliceblue;
 }
