@@ -78,7 +78,7 @@ height:auto;
   margin-left: 20%;
   inline-size: 800px;
 }
-/* Filename: App.css */
+
 
 * {
 	box-sizing: border-box;
@@ -99,16 +99,10 @@ height:auto;
 .subNav:hover{
   background-color:rgb(201, 124, 24);
 }
+
 .InfoSec{
   background-color: rgba(35, 35, 35, 0.9);
 }
 .InfoDiv h1{
-  color: aliceblue;
-}
-
-.hello{
-  color: aliceblue;
-}
-.ff{
   color: aliceblue;
 }
