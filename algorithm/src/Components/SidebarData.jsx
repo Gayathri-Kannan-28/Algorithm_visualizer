@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
@@ -21,12 +19,12 @@ export const SidebarData = [
 		subNav: [
 			{
 				title: "Knapsack",
-				path: "/about-knapsack",
+				path: "/about-us/aim",
 				icon: <IoIcons.IoIosPaper />,
 			},
 			{
 				title: "Huffmann",
-				path: "/about-huffmann",
+				path: "/about-us/vision",
 				icon: <IoIcons.IoIosPaper />,
 			},
 		],

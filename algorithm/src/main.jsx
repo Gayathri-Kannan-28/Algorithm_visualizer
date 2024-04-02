@@ -4,7 +4,6 @@ import App from './App.jsx'
 import './index.css'
 import {RouterProvider,createBrowserRouter} from "react-router-dom";
 
-
 import Backtheme from "./Components/Backtheme";
 import Define from "./Components/Define";
 import Sidebar from "./Components/Sidebar";
