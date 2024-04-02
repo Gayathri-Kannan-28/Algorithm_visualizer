@@ -21,12 +21,12 @@ export const SidebarData = [
 		subNav: [
 			{
 				title: "Knapsack",
-				path: "/about-us/aim",
+				path: "/about-knapsack",
 				icon: <IoIcons.IoIosPaper />,
 			},
 			{
 				title: "Huffmann",
-				path: "/about-us/vision",
+				path: "/about-huffmann",
 				icon: <IoIcons.IoIosPaper />,
 			},
 		],
