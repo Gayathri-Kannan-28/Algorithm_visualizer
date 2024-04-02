@@ -3,27 +3,6 @@ import Define from "./Components/Define";
 import Sidebar from "./Components/Sidebar";
 import Info from "./Components/Info";
 import Contacts from "./Components/Contacts";
-import Knapsack from "./Components/Knapsack";
-import Huffmann from "./Components/Huffmann";
-import {
-	BrowserRouter as Router,
-	Routes,
-	Route,
-} from "react-router-dom";
-import 	{Greedy_Approach} from "./Components/Greedy_Approach";
-import {
-	Services,
-	ServicesOne,
-	ServicesTwo,
-	ServicesThree,
-} from "./Components/Services";
-import {
-	Events,
-	EventsOne,
-	EventsTwo,
-} from "./Components/Events";
-import Contact from "./Components/Contact";
-import Support from "./Components/Support";
 
 const App=()=>{
 	return (
@@ -91,8 +70,9 @@ const App=()=>{
 
 			<Backtheme/>
 			<Define/>
-			<Info/>
+		
 			<Contacts/>
+			<Info/>
 	
 		</>
 	);

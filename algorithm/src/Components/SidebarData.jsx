@@ -9,82 +9,82 @@ import * as RiIcons from "react-icons/ri";
 
 export const SidebarData = [
 	{
-		title: "Greedy_Approach",
-		path: "/about-us",
-		icon: <IoIcons.IoIosPaper />,
+		title: "KNAPSACK",
+		path: "/about-knapsack",
+		
 			
 		iconClosed: <RiIcons.RiArrowDownSFill />,
 		iconOpened: <RiIcons.RiArrowUpSFill />,
 
-		subNav: [
-			{
-				title: "Knapsack",
-				path: "/about-us/aim",
-				icon: <IoIcons.IoIosPaper />,
-			},
-			{
-				title: "Huffmann",
-				path: "/about-us/vision",
-				icon: <IoIcons.IoIosPaper />,
-			},
-		],
+		// subNav: [
+		// 	{
+		// 		title: "Knapsack",
+		// 		path: "/about-knapsack",
+		// 		icon: <IoIcons.IoIosPaper />,
+		// 	},
+		// 	{
+		// 		title: "Huffmann",
+		// 		path: "/about-huffmann",
+		// 		icon: <IoIcons.IoIosPaper />,
+		// 	},
+		// ],
 	},
 	{
-		title: "Brand and Bound",
-		path: "/services",
-		icon: <IoIcons.IoIosPaper />,
-		iconClosed: <RiIcons.RiArrowDownSFill />,
-		iconOpened: <RiIcons.RiArrowUpSFill />,
+		title: "TRAVELLING SALESMAN",
+		path: "/ts",
+		// icon: <IoIcons.IoIosPaper />,
+		// iconClosed: <RiIcons.RiArrowDownSFill />,
+		// iconOpened: <RiIcons.RiArrowUpSFill />,
 
-		subNav: [
-			{
-				title: "N Queens",
-				path: "/services/services1",
-				icon: <IoIcons.IoIosPaper />,
-				cName: "sub-nav",
-			},
-			{
-				title: "Assignment Problem",
-				path: "/services/services2",
-				icon: <IoIcons.IoIosPaper />,
-				cName: "sub-nav",
-			},
-			{
-				title: "Subset",
-				path: "/services/services3",
-				icon: <IoIcons.IoIosPaper />,
-			},
-		],
+		// subNav: [
+		// 	{
+		// 		title: "N Queens",
+		// 		path: "/services/services1",
+		// 		icon: <IoIcons.IoIosPaper />,
+		// 		cName: "sub-nav",
+		// 	},
+		// 	{
+		// 		title: "Assignment Problem",
+		// 		path: "/services/services2",
+		// 		icon: <IoIcons.IoIosPaper />,
+		// 		cName: "sub-nav",
+		// 	},
+		// 	{
+		// 		title: "Subset",
+		// 		path: "/services/services3",
+		// 		icon: <IoIcons.IoIosPaper />,
+		// 	},
+		// ],
 	},
 	{
-		title: "Contact",
-		path: "/contact",
-		icon: <FaIcons.FaPhone />,
+		title: "HUFFMANN",
+		path: "/huffmann",
+		//icon: <FaIcons.FaPhone />,
 	},
 	{
-		title: "Events",
-		path: "/events",
-		icon: <FaIcons.FaEnvelopeOpenText />,
+		title: "SUBSET",
+		path: "/subset",
+		// //icon: <FaIcons.FaEnvelopeOpenText />,
 
-		iconClosed: <RiIcons.RiArrowDownSFill />,
-		iconOpened: <RiIcons.RiArrowUpSFill />,
+		// iconClosed: <RiIcons.RiArrowDownSFill />,
+		// iconOpened: <RiIcons.RiArrowUpSFill />,
 
-		subNav: [
-			{
-				title: "Event 1",
-				path: "/events/events1",
-				icon: <IoIcons.IoIosPaper />,
-			},
-			{
-				title: "Event 2",
-				path: "/events/events2",
-				icon: <IoIcons.IoIosPaper />,
-			},
-		],
+		// subNav: [
+		// 	{
+		// 		title: "Event 1",
+		// 		path: "/events/events1",
+		// 		icon: <IoIcons.IoIosPaper />,
+		// 	},
+		// 	{
+		// 		title: "Event 2",
+		// 		path: "/events/events2",
+		// 		icon: <IoIcons.IoIosPaper />,
+		// 	},
+		// ],
 	},
 	{
-		title: "Support",
-		path: "/support",
-		icon: <IoIcons.IoMdHelpCircle />,
+		title: "N QUEENS",
+		path: "/queens",
+		//icon: <IoIcons.IoMdHelpCircle />,
 	},
 ];

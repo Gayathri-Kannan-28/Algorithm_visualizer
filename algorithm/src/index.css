@@ -102,10 +102,16 @@ height:auto;
 
 .InfoSec{
   background-color: rgba(35, 35, 35, 0.9);
+  display:flex;
+  padding:20px 40px;
+  color:#C48525;
+  font-size:20px;
+  justify-content: space-evenly;
 }
-.InfoDiv h1{
+.InfoSec h1{
   color: aliceblue;
 }
+
 
 .contact-content{
   padding: 100px 0;

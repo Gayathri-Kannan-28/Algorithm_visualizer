@@ -5,7 +5,7 @@ import React from "react";
 export const Greedy_Approach = () => {
 	return (
 		<div className="home">
-			<h1></h1>
+			<h1>HELLO</h1>
 		</div>
 	);
 };
